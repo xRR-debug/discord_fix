@@ -1,0 +1,5 @@
+net stop "zapret (discord)"
+schtasks /End /TN "zapret (discord)"
+call :srvdel "zapret (discord)"
+net stop "zapret (discord)"
+sc delete "zapret (discord)"
